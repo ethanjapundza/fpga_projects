@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28c0f6702cbf400f80790f8b2b36bbeb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axi4stream_vip_v1_1_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2991] 'design_tb' is not declared under prefix 'DUT' [E:/sp20work/E315/ema/ema.srcs/sim_1/new/top_tb.sv:62]
+ERROR: [VRFC 10-2991] 'design_tb' is not declared under prefix 'DUT' [E:/sp20work/E315/ema/ema.srcs/sim_1/new/top_tb.sv:63]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

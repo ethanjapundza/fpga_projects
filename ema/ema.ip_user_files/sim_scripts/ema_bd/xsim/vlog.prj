@@ -1,0 +1,16 @@
+verilog xil_defaultlib --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/ec67/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/70cf/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ip/ema_bd_processing_system7_0_0" \
+"../../../bd/ema_bd/ipshared/db65/hdl/ema_ip_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/ec67/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/70cf/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ip/ema_bd_processing_system7_0_0" \
+"../../../bd/ema_bd/ipshared/db65/src/ema.v" \
+
+verilog xil_defaultlib --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/ec67/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ipshared/70cf/hdl" --include "../../../../ema.srcs/sources_1/bd/ema_bd/ip/ema_bd_processing_system7_0_0" \
+"../../../bd/ema_bd/ipshared/db65/hdl/ema_ip_v1_0.v" \
+"../../../bd/ema_bd/ip/ema_bd_ema_ip_0_0/sim/ema_bd_ema_ip_0_0.v" \
+"../../../bd/ema_bd/ip/ema_bd_processing_system7_0_0/sim/ema_bd_processing_system7_0_0.v" \
+"../../../bd/ema_bd/sim/ema_bd.v" \
+"../../../bd/ema_bd/ip/ema_bd_auto_pc_0/sim/ema_bd_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
