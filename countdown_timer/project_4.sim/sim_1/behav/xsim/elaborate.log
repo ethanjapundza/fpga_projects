@@ -1,0 +1,20 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /l/Xilinx_Vivado_SDK_Web_2018.2_0614_1954/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto d0fdc20a5a1943c7bfbc897108aa4a67 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot toggler_tb_behav xil_defaultlib.toggler_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 25 for port toggle_value [/nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v:38]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [/nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v:65]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [/nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v:69]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 65, File /nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 69, File /nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.timer_default
+Compiling module xil_defaultlib.reloading_timer_default
+Compiling module xil_defaultlib.toggler_default
+Compiling module xil_defaultlib.toggler_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot toggler_tb_behav

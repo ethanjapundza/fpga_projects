@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/nfs/nfs7/home/ejapundz/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sim_1/new/decoder_tb.v,1547835826,systemVerilog,,,,decoder_tb,,,,,,,,
+/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sim_1/new/top_tb.v,1547836093,systemVerilog,,,,top_tb,,,,,,,,
+/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sources_1/new/decoder.v,1547833038,systemVerilog,,/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sources_1/new/top.v,,decoder,,,,,,,,
+/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sources_1/new/top.v,1547837034,systemVerilog,,/nfs/nfs7/home/ejapundz/project_2/project_2.srcs/sim_1/new/top_tb.v,,top,,,,,,,,

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sources_1/new/reloading_timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reloading_timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sources_1/new/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sources_1/new/toggler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toggler
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sim_1/new/reloading_timer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reloading_timer_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/project_4/project_4.srcs/sim_1/new/timer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/nfs/nfs7/home/ejapundz/Downloads/toggler_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module toggler_tb

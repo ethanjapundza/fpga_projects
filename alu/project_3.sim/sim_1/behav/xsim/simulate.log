@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+00000000 x x
+00001111 x x
+11111111 x x
+01100111 x x
+01110111 0 0
+01111010 1 1
+00000001 0 0
+11111111 1 0
+Fatal: SUBTRACTION overflow failed
+Time: 1400 ns  Iteration: 0  Process: /alu_tb/Initial35_1  File: /nfs/nfs7/home/ejapundz/project_3/project_3.srcs/sim_1/new/alu_tb.v
+$finish called at time : 1400 ns : File "/nfs/nfs7/home/ejapundz/project_3/project_3.srcs/sim_1/new/alu_tb.v" Line 114
