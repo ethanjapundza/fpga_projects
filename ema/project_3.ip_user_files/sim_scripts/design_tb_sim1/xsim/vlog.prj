@@ -1,0 +1,13 @@
+sv xil_defaultlib --include "../../../../project_3.srcs/sim_1/bd/design_tb_sim1/ipshared/8713/hdl" \
+"../../../bd/design_tb_sim1/ip/design_tb_sim1_axi4stream_vip_0_0/sim/design_tb_sim1_axi4stream_vip_0_0_pkg.sv" \
+"../../../bd/design_tb_sim1/ip/design_tb_sim1_axi4stream_vip_0_0/sim/design_tb_sim1_axi4stream_vip_0_0.sv" \
+"../../../bd/design_tb_sim1/ip/design_tb_sim1_axi4stream_vip_1_0/sim/design_tb_sim1_axi4stream_vip_1_0_pkg.sv" \
+"../../../bd/design_tb_sim1/ip/design_tb_sim1_axi4stream_vip_1_0/sim/design_tb_sim1_axi4stream_vip_1_0.sv" \
+
+verilog xil_defaultlib --include "../../../../project_3.srcs/sim_1/bd/design_tb_sim1/ipshared/8713/hdl" \
+"../../../bd/design_tb_sim1/ip/design_tb_sim1_axis_bitflip_0_0/sim/design_tb_sim1_axis_bitflip_0_0.v" \
+"../../../bd/design_tb_sim1/sim/design_tb_sim1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

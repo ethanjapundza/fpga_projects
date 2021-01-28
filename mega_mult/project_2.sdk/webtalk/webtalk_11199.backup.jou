@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Wed Jan 29 16:06:36 2020
+# Process ID: 11199
+# Current directory: /nfs/nfs7/home/ejapundz/sp20-e315/E315/project_2.tar/project_2/project_2.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /nfs/nfs7/home/ejapundz/sp20-e315/E315/project_2.tar/project_2/project_2.sdk/webtalk/webtalk.log
+# Journal file: /nfs/nfs7/home/ejapundz/sp20-e315/E315/project_2.tar/project_2/project_2.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

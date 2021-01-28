@@ -1,0 +1,28 @@
+15:25:59 **** Auto Build of configuration Debug for project mini_mult ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/mini_mult.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mini_mult.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mini_mult_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mini_mult.d" -MT"src/mini_mult.o" -o "src/mini_mult.o" "../src/mini_mult.c"
+Finished building: ../src/mini_mult.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mini_mult_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: mini_mult.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mini_mult_bsp/ps7_cortexa9_0/lib -o "mini_mult.elf"  ./src/mini_mult.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mini_mult.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mini_mult.elf  |tee "mini_mult.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 128800	   2576	  23328	 154704	  25c50	mini_mult.elf
+Finished building: mini_mult.elf.size
+ 
+
+15:26:00 Build Finished (took 866ms)
+

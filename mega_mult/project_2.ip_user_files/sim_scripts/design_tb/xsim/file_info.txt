@@ -1,0 +1,5 @@
+design_tb_AXI_mult_0_0.v,verilog,xil_defaultlib,../../../bd/design_tb/ip/design_tb_AXI_mult_0_0/sim/design_tb_AXI_mult_0_0.v,incdir="$ref_dir/../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"incdir="../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"
+design_tb_axi_vip_0_0_pkg.sv,systemverilog,xil_defaultlib,../../../bd/design_tb/ip/design_tb_axi_vip_0_0/sim/design_tb_axi_vip_0_0_pkg.sv,incdir="$ref_dir/../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"incdir="../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"
+design_tb_axi_vip_0_0.sv,systemverilog,xil_defaultlib,../../../bd/design_tb/ip/design_tb_axi_vip_0_0/sim/design_tb_axi_vip_0_0.sv,incdir="$ref_dir/../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"incdir="../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"
+design_tb.v,verilog,xil_defaultlib,../../../bd/design_tb/sim/design_tb.v,incdir="$ref_dir/../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"incdir="../../../../project_2.srcs/sim_1/bd/design_tb/ipshared/ec67/hdl"
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,27 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/ejapundz/su19-research/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto f8e261531bcf4c6f99043084c091ccb7 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling module xil_defaultlib.mini_mult
+Compiling module xil_defaultlib.mega_mult_default
+Compiling module xil_defaultlib.AXI4LITE_Interface(C_S_AXI_ADDR_...
+Compiling module xil_defaultlib.AXI_mult
+Compiling module xil_defaultlib.design_tb_AXI_mult_0_0
+Compiling module xilinx_vip.axi_vip_axi4pc(WDATA_WIDTH=32,RD...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_PROTOCOL=2,C_AX...
+Compiling module axi_vip_v1_1_4.axi_vip_v1_1_4_top(C_AXI_PROTOCO...
+Compiling module xil_defaultlib.design_tb_axi_vip_0_0
+Compiling module xil_defaultlib.design_tb
+Compiling module xil_defaultlib.design_tb_wrapper
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bitcounter_processing_system7_0_0_synth_1" LaunchDir="/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_4/project_4.runs/bitcounter_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bitcounter_axi_dma_0_0_synth_1" LaunchDir="/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_4/project_4.runs/bitcounter_axi_dma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bitcounter_rst_ps7_0_100M_0_synth_1" LaunchDir="/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_4/project_4.runs/bitcounter_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bitcounter_axis_bitcount_0_0_synth_1" LaunchDir="/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_4/project_4.runs/bitcounter_axis_bitcount_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bitcounter_auto_pc_0_synth_1" LaunchDir="/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_4/project_4.runs/bitcounter_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

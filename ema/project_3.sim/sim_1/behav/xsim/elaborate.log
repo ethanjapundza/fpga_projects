@@ -1,0 +1,9 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /l/Xilinx_Vivado_SDK_Web_2018.3_1207_2324/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto ee45161a129644df9a1f2388c51e96bb --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axis_infrastructure_v1_1_0 -L axi4stream_vip_v1_1_4 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_sim1_behav xil_defaultlib.tb_sim1 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [/nfs/nfs7/home/ejapundz/sp20-e315/proj_templates/project_3_base/project_3.srcs/sim_1/new/tb_sim1.sv:168]
+WARNING: [VRFC 10-696] first argument of $fatal is invalid, expecting 0, 1 or 2 [/nfs/nfs7/home/ejapundz/sp20-e315/proj_templates/project_3_base/project_3.srcs/sim_1/new/tb_sim1.sv:179]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

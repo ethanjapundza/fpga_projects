@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+activeuserprofiles=Team;baboon;ubuntu
+=======
+activeuserprofiles=Team;if4111linux-15;ubuntu
+>>>>>>> cfa410c80aa6f8287b5426d2bad754b171e63490
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=lukefahr
+useridperkey=ubuntu.Local\=lukefahr;

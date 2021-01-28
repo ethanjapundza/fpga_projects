@@ -1,0 +1,68 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: testbench.DUT.design_tb_i.axi_vip_0.inst
+WARNING: 75 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+WARNING: 75 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+WARNING: 75 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+ERROR: 165 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF  : XILINX_RESET_PULSE_WIDTH: Holding AXI ARESETN asserted for 16 cycles of the slowest AXI clock is generally a sufficient reset pulse width for Xilinx IP. --UG1037. To downgrade, use <hierarchy_path to VIP>.IF.set_xilinx_reset_check_to_warn(), or filter using clr_xilinx_reset_check().
+WARNING: 165 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+WARNING: 165 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+WARNING: 165 ns testbench.DUT.design_tb_i.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: [Master VIP_monitor] (.axi_vip_pkg.axi_monitor(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::run_phase.Block8283_3.) 165 ns : run()
+INFO: [Master VIP_wr_driver] (.axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::run_phase.Block9460_18.) 165 ns : run()
+INFO: [Master VIP_rd_driver] (.axi_vip_pkg.axi_mst_rd_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::run_phase.Block10540_64.) 165 ns : run()
+Starting Write Transaction A
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::get_and_drive.GET_AND_DRIVE) 180 ns : Sending transaction: 
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::get_and_drive.GET_AND_DRIVE) 180 ns : ---------------------------------------------------------------------------------------------
+  Name                         Value
+---------------------------------------------------------------------------------------------
+  CMD                          XIL_AXI_WRITE
+  ADDR                         0x0000000043c00004 
+  WID                          0x00000000
+  LEN                          0x00
+  SIZE                         0x010
+  BURST                        0x01
+  CACHE                        0x0000
+  LOCK                         0x00
+  PROT                         0x000
+  REGION                       0x0000
+  QOS                          0x0000
+  BRESP                        XIL_AXI_RESP_OKAY
+  DRIVER_RETURN_ITEM           XIL_AXI_PAYLOAD_RETURN 
+  CREATION_TIME                180 ns
+  SUBMIT_TIME                  0 ns
+  PAYLOAD                      4
+    BEAT[          0]          0x00000002 (strb : 0b1111) :beat_delay:         0
+--------------------------------------------------------------------------------------------
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::w_channel.W_CHANNEL.Block9941_50.Block9941_51) 245 ns : WREADY+WLAST (         0) id=0x00000000
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::service_done_q.SERVICE_DONE_Q) 255 ns : SERVICE_DONE_Q: XIL_AXI_WRITE (0) A:0x0000000043c00004 ID:0x00000000 len:0x00 XIL_AXI_SIZE_4BYTE XIL_AXI_BURST_TYPE_INCR C:0b0000 L:XIL_AXI_ALOCK_NOLOCK P:0b000
+Starting Write Transaction B
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::get_and_drive.GET_AND_DRIVE) 260 ns : Sending transaction: 
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::get_and_drive.GET_AND_DRIVE) 260 ns : ---------------------------------------------------------------------------------------------
+  Name                         Value
+---------------------------------------------------------------------------------------------
+  CMD                          XIL_AXI_WRITE
+  ADDR                         0x0000000043c00004 
+  WID                          0x00000000
+  LEN                          0x00
+  SIZE                         0x010
+  BURST                        0x01
+  CACHE                        0x0000
+  LOCK                         0x00
+  PROT                         0x000
+  REGION                       0x0000
+  QOS                          0x0000
+  BRESP                        XIL_AXI_RESP_OKAY
+  DRIVER_RETURN_ITEM           XIL_AXI_PAYLOAD_RETURN 
+  CREATION_TIME                260 ns
+  SUBMIT_TIME                  0 ns
+  PAYLOAD                      4
+    BEAT[          0]          0x00000002 (strb : 0b1111) :beat_delay:         0
+--------------------------------------------------------------------------------------------
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::w_channel.W_CHANNEL.Block9941_50.Block9941_51) 325 ns : WREADY+WLAST (         0) id=0x00000000
+INFO: [Master VIP_wr_driver] (axi_vip_pkg.axi_mst_wr_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::service_done_q.SERVICE_DONE_Q) 335 ns : SERVICE_DONE_Q: XIL_AXI_WRITE (4) A:0x0000000043c00004 ID:0x00000000 len:0x00 XIL_AXI_SIZE_4BYTE XIL_AXI_BURST_TYPE_INCR C:0b0000 L:XIL_AXI_ALOCK_NOLOCK P:0b000
+Starting Read Transaction
+INFO: [Master VIP_rd_driver] (axi_vip_pkg.axi_mst_rd_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::ar_channel.AR_CHANNEL) 345 ns : ARVALID id=0x00000000
+INFO: [Master VIP_rd_driver] (axi_vip_pkg.axi_mst_rd_driver(C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_NARROW=0,C_AXI_HAS_BURST=0,C_AXI_HAS_LOCK=0,C_AXI_HAS_CACHE=0,C_AXI_HAS_REGION=0,C_AXI_HAS_QOS=0)::ar_channel.AR_CHANNEL) 375 ns : ARVALID id=0x00000000
+Executing Axi4 End Of Simulation checks
+$finish called at time : 400 ns : File "/wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" Line 3093

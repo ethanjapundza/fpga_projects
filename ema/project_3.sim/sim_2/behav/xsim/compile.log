@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_3/project_3.ip_user_files/bd/design_tb_sim2/ip/design_tb_sim2_axis_ema_0_0/sim/design_tb_sim2_axis_ema_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_tb_sim2_axis_ema_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_3/project_3.ip_user_files/bd/design_tb_sim2/sim/design_tb_sim2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_tb_sim2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/nfs/nfs7/home/ejapundz/sp20-e315/E315/project_3/project_3.srcs/sim_2/bd/design_tb_sim2/hdl/design_tb_sim2_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_tb_sim2_wrapper

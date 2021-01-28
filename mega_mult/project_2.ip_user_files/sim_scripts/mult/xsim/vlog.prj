@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../project_2.srcs/sources_1/bd/mult/ipshared/ec67/hdl" --include "../../../../project_2.srcs/sources_1/bd/mult/ipshared/70cf/hdl" --include "../../../../project_2.srcs/sources_1/bd/mult/ip/mult_processing_system7_0_0" \
+"../../../bd/mult/ip/mult_AXI_mult_0_0/sim/mult_AXI_mult_0_0.v" \
+"../../../bd/mult/ip/mult_processing_system7_0_0/sim/mult_processing_system7_0_0.v" \
+"../../../bd/mult/sim/mult.v" \
+"../../../bd/mult/ip/mult_auto_pc_0/sim/mult_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
